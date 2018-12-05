@@ -18,7 +18,7 @@ public class PrimeCalculator {
 	}
 
 	public static boolean isPrime(int x) {
-		if(x == 0 || x == 1)
+		if(x == 0 || x == 1 || x == 4)
 			return false; //0 & 1 aren't prime numbers.
 		for (int i = 2; 2 * i < x; i++) {
 			if (x % i == 0)
